@@ -2,7 +2,7 @@
 #!desc=In alibaba, interns only have access to OpenAta, this module serve as a redir
 
 [MITM]
-hostname = %APPEND% *ata.alibaba-inc.com
+hostname = %APPEND% *ata.alibaba-inc.com, *ata.atatech.org
 
 [URL Rewrite]
 "^https?:\/\/ata\.alibaba-inc\.com" https://open\.atatech.org 302
