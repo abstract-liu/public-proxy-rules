@@ -6,3 +6,4 @@ hostname = %APPEND% *ata.alibaba-inc.com
 
 [URL Rewrite]
 "^https?:\/\/ata\.alibaba-inc\.com" https://open\.atatech.org 302
+"^https?:\/\/ata\.atatech\.org" https://open\.atatech.org 302
